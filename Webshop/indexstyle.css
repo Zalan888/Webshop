@@ -7,7 +7,9 @@ body,html {
         rgb(19, 2, 95) 7%,
         rgb(49, 49, 49) 60%
             );
-            height: 115%;
+            height: 120%;
+            width: 100%;
+           background-repeat: no-repeat;
   }
 
 .main{
@@ -48,11 +50,13 @@ li{
     position: fixed;
     padding: 1%;
     padding-right: 2%;
+    border-radius: 20%;
 }
 
 #basket:hover{
  background-color: green;
     transition: 3s;
+    border-radius: 50%;
 }
 
 a{
@@ -65,7 +69,8 @@ a{
 .highlight:hover{
     background-color: rgb(30, 30, 99);
     transition: 0.9s;
-    
+    border-radius: 30%;
+    padding-bottom: 2.8%;
 }
 
 .highlight{
@@ -104,5 +109,12 @@ p{
     text-align: center;
     color: rgb(126, 113, 98);
     font-size: larger;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
+
+button{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+
