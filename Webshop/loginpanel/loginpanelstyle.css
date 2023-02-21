@@ -1,0 +1,105 @@
+body,html {
+    margin:0;
+    padding:0;
+   background: linear-gradient(
+        0deg,
+        rgb(0, 0, 0) 4.5%,
+        rgb(19, 2, 95) 7%,
+        rgb(49, 49, 49) 60%
+            );
+            height: 100%;
+            width: 100%;
+           background-repeat: no-repeat;
+  }
+
+  .login{
+    background: linear-gradient(
+        0deg,
+        rgb(0,0,0) 25%,
+        rgb(24, 24, 24) 80%
+    );
+    padding: 5%;
+    padding-top: 2%;
+    margin-top: 8%;
+    margin-bottom: 0;
+    margin-left: 40%;
+    margin-right: 35%;
+    color: bisque;
+  }
+
+  label{
+    margin: 3%;
+    border-radius: 50%;
+  }
+
+  input{
+    border-radius: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: linear-gradient(
+        -45deg,
+        rgb(2, 2, 51) 15%,
+        rgb(24, 24, 24) 80%
+    );
+    color: rgb(126, 149, 218);
+  }
+
+  label{
+    background-color: rgb(32, 32, 32);
+    padding: 1.5%;
+  }
+
+button{
+  border-radius: 35%;
+    padding: 2%;
+    margin-left: 50%;
+    background-color: rgb(32, 32, 32);
+    color: bisque;
+}
+
+a{
+margin-left: -25%;
+color: rgb(74, 9, 134);
+font-style: normal;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background: rgb(15, 2, 88);
+    transition: 1s;
+    color: rgb(252, 168, 67);
+}
+
+label:hover{
+    transition: 1s;
+    color: rgb(252, 168, 67);
+}
+
+a:hover{
+    transition: 1s;
+    color: wheat;
+    font-style: oblique;
+}
+
+h2:hover{
+    transition: 1s;
+    color: rgb(252, 168, 67);
+}
+
+#vissza{
+  border-radius: 15%;
+    padding: 2%;
+    margin-left: 50%;
+    background-color: rgb(32, 32, 32);
+    color: bisque;
+  
+}
+
+#vissza:hover{
+  border-radius: 20%;
+  background: rgb(15, 2, 88);
+  transition: 1s;
+  color: rgb(252, 168, 67);
+  font-style: normal;
+}
