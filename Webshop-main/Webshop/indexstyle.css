@@ -1,0 +1,121 @@
+body,html {
+    margin:0;
+    padding:0;
+   background: linear-gradient(
+        0deg,
+        rgb(0, 0, 0) 4.5%,
+        rgb(23, 3, 114) 7%,
+        rgb(49, 49, 49) 60%
+            );
+            height: 120%;
+            width: 100%;
+           background-repeat: no-repeat;
+  }
+
+.main{
+   background-color: rgb(24, 24, 24);
+    margin: 2.75%;
+    margin-top: 0;
+}
+
+nav{
+    background: linear-gradient(
+        0deg,
+        rgb( 49, 49, 49 ) 8%,
+        rgb( 0, 0, 0 ) 60%
+    );
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1.5%;
+    padding-top: 0.75%;
+
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 2.6%;
+    padding-right: 3%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.basket{
+    margin-left: 15%;
+}
+
+#basket{
+    margin-left: 85%;
+    position: fixed;
+    padding: 1%;
+    padding-right: 2%;
+    border-radius: 20%;
+}
+
+#basket:hover{
+ background-color: green;
+    transition: 3s;
+    border-radius: 50%;
+}
+
+a{
+    color: rgb(40, 88, 121);
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+
+.highlight:hover{
+    background-color: rgb(30, 30, 99);
+    transition: 0.9s;
+}
+
+.highlight{
+    margin-left: 0.6%;
+}
+
+a:hover{
+    color: rgb(81, 39, 119);
+    transition: 0.9s;
+}
+
+.ajanlatok{
+    height: 25%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  3%;
+    border: solid;
+    border-color: rgb(23, 41, 99);
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    color: rgb(192, 160, 117);
+}
+
+h2{
+    text-align: center ;
+    color: rgb(226, 204, 178);
+    font-size: xx-large;
+}
+
+p{
+    text-align: center;
+    color: rgb(126, 113, 98);
+    font-size: larger;
+    padding-bottom: 2%;
+}
+
+button{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+
+.loginimg{
+margin-left: 20%;
+}
