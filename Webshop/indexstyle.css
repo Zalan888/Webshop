@@ -1,11 +1,10 @@
-/*w.z */
 body,html {
     margin:0;
     padding:0;
    background: linear-gradient(
         0deg,
         rgb(0, 0, 0) 4.5%,
-        rgb(19, 2, 95) 7%,
+        rgb(23, 3, 114) 7%,
         rgb(49, 49, 49) 60%
             );
             height: 120%;
@@ -117,3 +116,6 @@ button{
 }
 
 
+.loginimg{
+margin-left: 20%;
+}
