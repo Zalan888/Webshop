@@ -74,6 +74,12 @@ a{
 
 .etelek {
   padding: 256px 40px 48px 40px;
+  opacity: 0.8;
+}
+
+.etelek:hover {
+  opacity:1;
+  transition:0.4s;
 }
 
 
