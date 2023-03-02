@@ -119,3 +119,26 @@ button{
 .loginimg{
 margin-left: 25%;
 }
+
+@media only screen and (max-width: 750px){
+    li{
+        padding: 0.6%;
+        padding-right: 1%;
+    }
+    img{
+        height: 20px;
+    }
+    a{
+        font-size: small   ;
+    }
+       .main{
+        height: auto;
+       }
+       .ajanlatok{
+        height: 30%;
+        width: 60%;
+       }
+       .loginimg{
+        margin-left: 5%;
+       }
+}
