@@ -74,12 +74,6 @@ a{
 
 .etelek {
   padding: 256px 40px 48px 40px;
-  opacity: 0.8;
-}
-
-.etelek:hover {
-  opacity:1;
-  transition:0.4s;
 }
 
 
@@ -99,4 +93,13 @@ a:hover{
 
 .loginimg{
   margin-left: 25%;
+}
+
+.opacity{
+  opacity: 0.8;
+}
+
+.opacity:hover{
+  opacity: 1;
+  transition: 0.4s;
 }
