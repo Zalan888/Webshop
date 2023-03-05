@@ -135,13 +135,21 @@ span {
     display: none;
     position: absolute;
     background-color: black;
-    margin-right: 1%;
+    margin-left: -100%;
+  padding: 20%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown:hover .dropdown-content {
-    display: list-item;
+    display: unset;
+  }
+
+  .ddl{
+    border: 0;
+    border-bottom: 2px;
+    border-color: gray;
+    border-style: solid;
   }
 
 
@@ -153,8 +161,9 @@ span {
     }
 
     html{
-        height: auto;
+        height: 125%;
     }
+
 
     .dropdown {
         display: inline-block;
@@ -177,7 +186,7 @@ span {
         width: 60%;
        }
        .loginimg{
-        margin-left: 10%;
+        margin-left: 15%;
        }
        
 }
