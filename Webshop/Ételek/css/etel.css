@@ -5,7 +5,7 @@ html{
         rgb(23, 3, 114) 20%,
         rgb(49, 49, 49) 90%
         );
-        height: 170%;
+        height: auto;
         width: 100%;
        background-repeat: no-repeat;
 }
